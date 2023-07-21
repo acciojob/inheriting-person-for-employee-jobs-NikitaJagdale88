@@ -1,18 +1,8 @@
-// // complete this js code
-// function Person(name, age) {}
-
-// function Employee(name, age, jobTitle) {}
-
-// // Do not change code below this line
-// window.Person = Person;
-// window.Employee = Employee;
-
-// Constructor function for Person
+// complete this js code
 function Person(name, age) {
-  this.name = name;
-  this.age = age;
+	 this.name = name;
+      this.age = age;
 }
-
 // Adding the greet method to the Person prototype
 Person.prototype.greet = function () {
   console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
@@ -45,3 +35,10 @@ person1.greet(); // Output: Hello, my name is John, I am 30 years old.
 const employee1 = new Employee("Alice", 25, "Software Engineer");
 employee1.greet(); // Output: Hello, my name is Alice, I am 25 years old.
 employee1.jobGreet(); // Output: Hello, my name is Alice, I am 25 years old, and my job title is Software Engineer.
+
+
+function Employee(name, age, jobTitle) {}
+
+// Do not change code below this line
+window.Person = Person;
+window.Employee = Employee;
