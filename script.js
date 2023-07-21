@@ -28,16 +28,6 @@ Employee.prototype.jobGreet = function () {
   );
 };
 
-// Example usage:
-const person1 = new Person("John", 30);
-person1.greet(); // Output: Hello, my name is John, I am 30 years old.
-
-const employee1 = new Employee("Alice", 25, "Software Engineer");
-employee1.greet(); // Output: Hello, my name is Alice, I am 25 years old.
-employee1.jobGreet(); // Output: Hello, my name is Alice, I am 25 years old, and my job title is Software Engineer.
-
-
-function Employee(name, age, jobTitle) {}
 
 // Do not change code below this line
 window.Person = Person;
